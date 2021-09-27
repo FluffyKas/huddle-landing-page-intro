@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://fluffykas.github.io/huddle-landing-page-intro/)
+[Solution URL](https://fluffykas.github.io/huddle-landing-page-intro/)
 
 ## My process
 
