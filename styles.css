@@ -85,6 +85,23 @@ body {
   transition: all .2s ease;
 }
 
+.info-card__button:focus {
+  /* Provide a fallback style for browsers
+     that don't support :focus-visible */
+  outline: 4px dotted var(--clr-primary-magenta);
+}
+
+.info-card__button:focus:not(:focus-visible) {
+  /* Remove the focus indicator on mouse-focus for browsers
+     that do support :focus-visible */
+  outline: none;
+}
+
+.info-card__button:focus-visible {
+  /* for browsers that do support :focus-visible */
+  outline: 4px dotted var(--clr-primary-magenta);
+}
+
 .info-card__button:hover {
   background: var(--clr-primary-magenta);
   color: white;
@@ -110,9 +127,25 @@ body {
   transition: all .2s ease;
 }
 
-.icon:hover {
+.social-media__link:hover {
   border: 1px solid var(--clr-primary-magenta);
   color: var(--clr-primary-magenta);
+}
+.social-media__link:focus {
+  /* Provide a fallback style for browsers
+     that don't support :focus-visible */
+  outline: 3px dotted var(--clr-primary-magenta);
+}
+
+.social-media__link:focus:not(:focus-visible) {
+  /* Remove the focus indicator on mouse-focus for browsers
+     that do support :focus-visible */
+  outline: none;
+}
+
+.social-media__link:focus-visible {
+  /* for browsers that do support :focus-visible */
+  outline: 3px dotted var(--clr-primary-magenta);
 }
 
 .fa-facebook-f {
